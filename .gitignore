@@ -1,0 +1,48 @@
+# --- Visual Studio & .NET ---
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+
+# --- Build- und Debug-Dateien ---
+bin/
+obj/
+TestResults/
+*.pdb
+*.ilk
+*.ipch
+*.tlog
+*.lastbuildstate
+
+# --- NuGet Packages ---
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+# Falls du `dotnet restore` verwendest:
+.nuget/
+
+# --- WPF-spezifische Build-Dateien ---
+*.g.cs
+*.g.i.cs
+*.designer.cs
+
+# --- Cache & Logs ---
+*.cache
+*.log
+*.tmp
+*.swp
+*.swo
+Thumbs.db
+desktop.ini
+
+# --- Rider & Resharper (Falls du es nutzt) ---
+.idea/
+*.DotSettings.user
+*.sln.DotSettings
+
+# --- Sonstiges ---
+_Dependencies/
+_ReSharper.Caches/
